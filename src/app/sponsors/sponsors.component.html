@@ -1,0 +1,57 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 py-6">
+            <div class="row" *ngIf="platinumSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Platinum" [sponsors]="platinumSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <div class="row" *ngIf="goldSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Gold" [sponsors]="goldSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <div class="row" *ngIf="silverSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Silver" [sponsors]="silverSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <div class="row" *ngIf="bronzeSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Bronze" [sponsors]="bronzeSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <div class="row" *ngIf="grandAirCarrierSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Official Air Carrier Sponsor" [sponsors]="grandAirCarrierSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <br><br>
+            <div class="row" *ngIf="inKindSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="In Kind Sponsors" [sponsors]="inKindSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <br><br>
+            <div class="row" *ngIf="mediaSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Media Partners" [sponsors]="mediaSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+            <br><br>
+            <div class="row" *ngIf="friendsSponsors.length > 0">
+                <div class="col-12">
+                    <sponsors-list name="Friends" [sponsors]="friendsSponsors"></sponsors-list>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>

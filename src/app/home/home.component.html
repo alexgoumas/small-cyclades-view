@@ -1,0 +1,107 @@
+<div class="page-main-container">
+    <!-- What is TED/TEDx? -->
+    <!-- <div class="about-section py-6">
+        <div class="container-fluid">
+            <div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+        </div>
+    </div> -->
+
+    <!-- What is Switch Perspective -->
+    <div id="swipe" class="mob-feature">
+        <div class="section-gap">
+            <div class="container">
+                <div class="section-title-wrapper what-is-swipe">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 mx-auto text-center">
+                            <h2> What is SWIPE? </h2>
+                            <p class="mb-0">Swipe is the TEDxUniversityofPiraeus 2019 theme</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" angly-mobileFeatured [mobileFeatured]="mobileFeatured"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing -->
+    <div class="pricing-section">
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-12">
+                     <angly-pricing></angly-pricing>  <!--HIDE IT FOR THE PRE EVENT -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial -->
+    <!-- <div class="testimonial-section section-gap">
+        <div class="">
+            <div class="container">
+                <div id="testimonial-2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-7 mx-auto">
+                                <div class="carousel-item active text-center">
+                                    <h2 class="mb-5 text-white">&lt;Quote here&gt;</h2>
+                                    <div class="testimonial-user mb-4">
+                                        <img src="assets/img/1-team.jpg" class="img-fluid rounded-circle" alt="testimonial user"
+                                            width="100" height="100">
+                                    </div>
+                                    <div class="mb-4">
+                                        <h5 class="text-white">Volunteer 1</h5>
+                                        <span class="text-white opacity-07">Volunteer</span>
+                                    </div>
+                                    <p class="text-white text-center opacity-07">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <h2 class="mb-5 text-white">&lt;Quote here&gt;</h2>
+                                    <div class="testimonial-user mb-4">
+                                        <img src="assets/img/1-team.jpg" class="img-fluid rounded-circle" alt="testimonial user"
+                                            width="100" height="100">
+                                    </div>
+                                    <div class="mb-4">
+                                        <h5 class="text-white">Volunteer 2</h5>
+                                        <span class="text-white opacity-07">Volunteer</span>
+                                    </div>
+                                    <p class="text-white text-center opacity-07">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial-2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev" aria-hidden="true">
+                            <i class="ion-ios-arrow-dropleft-circle font-2x"></i>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial-2" role="button" data-slide="next">
+                        <span class="carousel-control-next" aria-hidden="true">
+                            <i class="ion-ios-arrow-dropright-circle font-2x"></i>
+                        </span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact information section -->
+    <div class="contact-section py-6">
+        <div class="container">
+            <div class="row" angly-homeContact [contact]="contact"></div>
+        </div>
+    </div>
+
+     <!-- <angly-tabStructure></angly-tabStructure> -->
+     <div class="schedule-section my-5">
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <schedule [schedule]="dataService.schedule"></schedule>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe section -->
+    <div angly-subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
+
+</div>

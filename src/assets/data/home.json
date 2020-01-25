@@ -1,0 +1,35 @@
+{
+  "data":{
+      "video_content":{
+         "heading":"How It Works",
+         "short_content":"Angly is developed with easy component and file structure which is easy to modify or extend with new components.",
+         "content":[
+            "Select a page template.",
+            "Configure API url for content.",
+            "Map your data fields.",
+            "Enjoy dynamic pages with live content."
+         ],
+         "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
+      },
+      "mobile_featured":[
+         {
+            "icon_path":"ion-ios-crop-outline",
+            "icon_class":"text-info",
+            "title":"Speed is a characteristic of modern age",
+            "content":"21st is, undeniably, the century of rapid change and technological development. Our lives are influenced by this volatile environment and we are usually called to respond directly to these changes. In order to adapt to the new situation, we need to “get out” of our own field of view and try to see things from a different Perspective, so that we have a more complete image and viewpoint."
+         },
+         {
+            "icon_path":"ion-ios-color-wand-outline",
+            "icon_class":"text-success",
+            "title":"Broaden your horizons",
+            "content":"The theme for this year’s event is “SWIPE”, a term that we often see on social media and redefined, in order to give us a deeper meaning. “SWIPE” is the acronym for the words “SWItch PErspective” and we can easily understand the goal for this year’s conference, which is no other than seeing things from a different Perspective. Besides the element of Switching, “SWIPE” also signifies the speed at which it arrives."
+         },
+         {
+            "icon_path":"ion-ios-bulb-outline",
+            "icon_class":"text-warning",
+            "title":"Where?",
+            "content":"On Saturday 18 May 2019, TEDxUniversityofPiraeus returns at Michael Cacoyannis Foundation to promote ideas worth spreading. Do not miss it!"
+         }
+      ]
+  }
+}

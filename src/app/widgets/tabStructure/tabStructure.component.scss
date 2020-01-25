@@ -1,0 +1,58 @@
+.media {
+    // box-shadow: 0px 4px 8px;
+}
+.tab-content {
+    margin-left: 40px;
+}
+.schedule-box {
+    width: 100%;
+}
+.spkr-img {
+    height: 105px;
+    width: 100px;
+}
+.spkr-time {
+    height: 105px;
+    width: 100px;
+    background-color: #d91f1f;
+    color: white;
+}
+.hour {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 100;
+}
+.minute {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-right: 8px;
+    font-weight: 100;
+}
+@media screen and (max-width: 640px) {
+    .schedule-box {
+        width: 97%;
+        line-height: 14px;
+    }
+    .hour {
+        margin-top: 12px;
+    }
+    .minute {
+        margin-top: 12px;
+    }
+    .tab-content {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .resp {
+        margin-left: -10px;
+        font-size: 77%;
+    }
+}
+
+.schedule {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}

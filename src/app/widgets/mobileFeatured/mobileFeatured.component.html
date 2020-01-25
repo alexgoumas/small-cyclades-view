@@ -1,0 +1,17 @@
+<!-- Mobile Feature -->
+<div class="col-sm-12 col-md-6 text-center d-flex align-items-center justify-content-center">
+   <img src="assets/img/swipe-logo.png" alt="mobile feature" class="img-fluid">
+</div>
+<div class="col-sm-12 col-md-6 pt-5">
+	<ul class="list-unstyled">
+		<li class="media mb-5" *ngFor="let featured of mobileFeatured">
+			<span class="mr-5 d-flex">
+				<i class="{{featured?.icon_class}} {{featured?.icon_path}} font-4x"></i>
+			</span>
+			<div class="media-body">
+				<h5 class="mb-3">{{featured?.title}}</h5>
+				<p>{{featured?.content}}</p>
+			</div>
+		</li>
+	</ul>
+</div>

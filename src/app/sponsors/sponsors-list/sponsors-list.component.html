@@ -1,0 +1,14 @@
+<div class="section-title-wrapper mb-3" style="box-sizing: initial !important">
+    <div class="row">
+        <div class="col-sm-12 col-md-9 mx-auto text-center">
+            <h2 class="font-2x mb-3">{{name}}</h2>
+        </div>
+    </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="{{sponsor.type | sponsorTypeToCol}}" *ngFor="let sponsor of sponsors">
+                <!-- <div class="d-flex justify-content-center" style="box-sizing: border-box; width: 400px; height: 180px;"> -->
+                    <sponsors-list-item [sponsor]="sponsor"></sponsors-list-item>
+                <!-- </div> -->
+            </div>
+        </div>
+</div>

@@ -1,1 +1,4 @@
-<router-outlet></router-outlet>
+<loading-overlay [loading]="loading"></loading-overlay>
+<router-outlet *ngIf="!comingSoonMode"></router-outlet>
+<angly-maintenance *ngIf="comingSoonMode"></angly-maintenance>
+

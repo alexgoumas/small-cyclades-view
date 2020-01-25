@@ -1,0 +1,19 @@
+<!-- Contact Us 2 Widget -->
+<div class="mb-4">
+  <h4 class="sidebar-title mb-3">Contact Us 2</h4>
+</div>
+<div class="mb-4">
+	<!-- Google Map -->
+	<angly-map width="800" height="200"></angly-map>
+</div>
+<ul class="list-unstyled">
+  <li *ngFor="let contactUs of contact" class="d-flex justify-content-start mb-2">
+    	<span class="d-flex align-items-start">
+    		{{contactUs?.heading}}
+    	</span> 
+    	<span class="mx-3">: </span>
+    	<a href="javascript:void(0)" class="d-flex align-items-start text-dark">
+    		{{contactUs?.value}}
+    	</a>
+  </li>
+</ul>

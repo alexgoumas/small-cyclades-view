@@ -1,0 +1,38 @@
+<div class="section-title-wrapper mb-1">
+    <div class="row">
+        <div class="col-sm-12 col-md-9 mx-auto text-center">
+            <h2 class="font-2x mb-3">{{name}}</h2>
+        </div>
+    </div>
+</div>
+<div class="row d-flex justify-content-center mb-5">
+    <div class="col-6 col-sm-4" *ngFor="let member of members">
+        <div *ngIf="member && member.images && member.images.length > 0">
+            <img [src]="member.images[0]" alt="" class="gallery images px-1 team-member-image" style="width: 100%;">
+            <div class="mb-3">
+                <h5 class="text-center mt-1">{{member.firstName}} {{member.lastName}}</h5>
+                <h6 class="text-center team-member-title">{{member.title}}</h6>
+                <div class="text-center mt-1"> <!--social media icons-->
+                    <a *ngIf="member.contactDetails.email" href="mailto:{{member.contactDetails.email}}" target="__blank">
+                        <i class="far fa-envelope mr-2"></i>
+                    </a>
+                     <a *ngIf="member.contactDetails.facebook" [href]="member.contactDetails.facebook"  target="__blank">
+                        <i class="fab fa-facebook-f mr-2"></i>
+                    </a>
+                    <a *ngIf="member.contactDetails.instagram" [href]="member.contactDetails.instagram" target="__blank">
+                        <i class="fab fa-instagram mr-2"></i>
+                    </a>
+                    <a *ngIf="member.contactDetails.linkedIn" [href]="member.contactDetails.linkedIn" target="__blank">
+                        <i class="fab fa-linkedin mr-2"></i>
+                    </a>
+                    <a *ngIf="member.contactDetails.twitter" [href]="member.contactDetails.twitter" target="__blank">
+                        <i class="fab fa-twitter mr-2"></i>
+                    </a>
+                    <a *ngIf="member.contactDetails.behance" [href]="member.contactDetails.behance" target="__blank">
+                        <i class="fab fab-behance-square mr-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

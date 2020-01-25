@@ -1,0 +1,30 @@
+<!-- Subscribe-section -->
+<div class="subscribe-section py-6 newsletter">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-9 mx-auto text-center">
+            <div class="mb-5" [ngClass]="{'mb-5': !subscribed}">
+               <h2 *ngIf="!subscribed" class="font-2x text-white"> Subscribe to our newsletter </h2>
+               <h2 *ngIf="subscribed" class="font-2x text-white"> Thanks for subscribing to our newsletter. Stay Tuned!</h2>
+            </div>
+            <form *ngIf="!subscribed" class="d-block" [formGroup] = "subscribe" (ngSubmit) = "subscribeNow(subscribe.value)">
+   				<div class="form-row justify-content-center align-items-center">
+   					<div class="form-group col-sm-12 col-md-6">
+                     <input type="email" class="form-control w-100 form-control-lg emailInput" placeholder=" Enter Your Email" id="validationCustom01" formControlName = "email" required>
+                     <span class="has-icon"><i class="ion-ios-mail-outline"></i></span>
+                     <div class="invalid-feedback">
+                       Please provide a valid Email.
+                     </div>
+   					</div>
+   					<div class="form-group col-sm-12 col-md-3">
+   						<button type ="submit" class="btn btn-sub btn-block btn-lg submit-btn"> Subscribe</button>
+   					</div>
+   				</div>
+   			</form>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Subscribe-section Closed -->
+
+

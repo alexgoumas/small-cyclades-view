@@ -1,0 +1,68 @@
+<div class="tab-wrappers">
+	<div class="tab-content" style="margin: 0">
+		<!-- <div  *ngIf="tabsContent" class="tab-pane fade show active" id="tab-1" role="tabpanel">
+			<div *ngFor="let content of tabsContent"> -->
+		<div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+			<div>
+				<div class="media schedule-box">
+					<div class="spkr-time d-flex flex-column align-items-center justify-content-center">
+                        <div class="hour m-0">{{speaker.startTime | time}}</div>
+                        <div>-</div>
+						<div class="minute m-0">{{speaker.endTime | time}}</div>
+					</div>
+					<img [src]="speaker.images[0]" class="d-flex mr-3 spkr-img" width="auto" height="auto" />
+					<div class="media-body">
+						<p class="mb-2 resp"><a href="javascript:void(0)" class="text-dark"><b> {{speaker.firstName}} {{speaker.middleName}} {{speaker.lastName}}</b></a></p>
+						<p class="mb-2 resp"><a href="javascript:void(0)" class="text-muted">{{speaker.occupation}}</a></p>
+						<div class="blog-meta resp">
+							<a href="javascript:void(0)" class="mr-2">
+								<!-- <i class="fa fa-user mr-2 text-muted font-lg"></i> -->
+								<span class="text-muted font-sm"> {{speaker.speechTitle}} </span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div *ngIf="tabsContent" class="tab-pane fade" id="tab-2" role="tabpanel">
+			<div *ngFor="let content of tabsContent">
+				<div class="media mb-4">
+					<img [src]="content?.image_path" class="d-flex mr-3" width="100" height="100" />
+					<div class="media-body">
+						<p class="mb-2"><a href="javascript:void(0)" class="text-dark">{{content?.heading}}</a></p>
+						<div class="blog-meta">
+							<a href="javascript:void(0)" class="mr-2">
+								<i class="fa {{content?.user_icon}} mr-2 text-muted font-lg"></i>
+								<span class="text-muted font-sm"> {{content?.user_name}}</span>
+							</a>
+							<a href="javascript:void(0)">
+								<i class="fa fa-calendar-o mr-2 text-muted font-lg"></i>
+								<span class="text-muted font-sm">{{content?.date*1000 | date }}</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div *ngIf="tabsContent" class="tab-pane fade" id="tab-3" role="tabpanel">
+			<div *ngFor="let content of tabsContent">
+				<div class="media mb-4">
+					<img [src]="content?.image_path" class="d-flex mr-3" width="100" height="100" />
+					<div class="media-body">
+						<p class="mb-2"><a href="javascript:void(0)" class="text-dark">{{content?.heading}}</a></p>
+						<div class="blog-meta">
+							<a href="javascript:void(0)" class="mr-2">
+								<i class="fa {{content?.user_icon}} mr-2 text-muted font-lg"></i>
+							<span class="text-muted font-sm"> {{content?.user_name}}</span>
+							</a>
+							<a href="javascript:void(0)">
+								<i class="fa fa-calendar-o mr-2 text-muted font-lg"></i>
+							<span class="text-muted font-sm">{{content?.date*1000 | date }}</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

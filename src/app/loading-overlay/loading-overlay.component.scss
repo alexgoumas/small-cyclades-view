@@ -1,0 +1,16 @@
+$tedx-red: #d91f1f;
+
+.loading-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2147483647;
+    background-color: #202020;
+    * {
+        color: $tedx-red !important;
+    }
+    .loading-indicator {
+        width: 250px;
+    }
+}

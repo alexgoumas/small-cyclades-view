@@ -1,0 +1,29 @@
+<div class="row no-gutters schedule">
+    <div class="col-12">
+        <div class="row no-gutters">
+            <div class="col-12 py-3 schedule-header">
+                <div class="row no-gutters">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h4 class="event-schedule-title mb-4 mt-2">Agenda</h4>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-12 d-flex justify-content-around ">
+                        <button class="btn btn-tedx-schedule btn-pill btn-sm mx-1 mb-2 btn-danger" [ngClass]="{'btn-tedx-inactive': activeTab != 1}"(click)="goToTab(1)">Session 1</button>
+                        <button class="btn btn-tedx-schedule btn-pill btn-sm mx-1 mb-2 btn-danger" [ngClass]="{'btn-tedx-inactive': activeTab != 2}"(click)="goToTab(2)">Session 2</button>
+                        <button class="btn btn-tedx-schedule btn-pill btn-sm mx-1 mb-2 btn-danger" [ngClass]="{'btn-tedx-inactive': activeTab != 3}"(click)="goToTab(3)">Session 3</button>
+                        <button class="btn btn-tedx-schedule btn-pill btn-sm mx-1 mb-2 btn-danger" [ngClass]="{'btn-tedx-inactive': activeTab != 4}"(click)="goToTab(4)">Session 4</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12 d-flex flex-column align-items-center schedule-content">
+                <schedule-item *ngIf="currentSessionData?.performer" [speaker]="currentSessionData?.performer"></schedule-item>
+                <schedule-item *ngFor="let speaker of currentSessionData?.speakers" [speaker]="speaker"></schedule-item>
+            </div>
+        </div>
+    </div>
+</div>
+

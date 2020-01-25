@@ -1,0 +1,39 @@
+$tedx-red: #e62b1e;
+
+@media (min-width: 768px) {
+    .offset-md-2 {
+        margin-left: 16.666667%;
+    }
+}
+
+.btn-tedx-inactive {
+    background-color: white;
+    color: $tedx-red;
+}
+
+.btn-tedx-schedule {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    &:focus {
+        box-shadow: inherit !important;
+    }
+}
+
+.schedule-header {
+    background-color: rgba(0,0,0,0.8);
+}
+
+schedule-item {
+    width: 100%;
+}
+
+.event-schedule-title {
+    color: white;
+}
+
+.schedule {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);
+}

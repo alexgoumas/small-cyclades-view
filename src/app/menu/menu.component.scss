@@ -1,0 +1,25 @@
+.navbar {
+    border-bottom: 1px solid #d91f1f;
+    background-color: black;
+    padding: 10px;
+}
+.list-unstyled, .navbar-nav, .nav-item, .nav-link:hover {
+    color: #d91f1f !important;
+}
+.img-fluid {
+    width: 300px;
+}
+
+.navbar-transparent {
+    // TODO: add this class to navbar when it appears on homepage
+    border-bottom: none;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) ), 
+}
+@media (max-width: 767px) { //Change color of mobile drop-down menu
+    .main-menu > li {
+        border-bottom: none;
+    }
+    .navbar-nav, .ml-auto, .main-menu .list-unstyled {
+        background-color: black;
+    }
+}

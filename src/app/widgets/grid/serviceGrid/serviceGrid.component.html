@@ -1,0 +1,43 @@
+<!-- Service grid -->
+<div class="col-sm-12 col-md-4 col-xl-4 m-sm-b" *ngFor="let content of serviceGridContent ? serviceGridContent.slice(0,3):[]">
+    <div class="info-card text-center">
+        <!-- <h5 class="mb-3 info-title">{{content?.title}}</h5> -->
+        <h5 class="mb-3 info-title">What is</h5>
+        <div class="icon-wrap mb-3 {{content?.icon?.color}}">
+            <img [src]="content?.icon?.name">
+        </div>
+        <p class="mb-4 font-small service-text-box">{{content?.content}}</p>
+        <div *ngIf="content.title=='What is TED?'">
+            Follow TED: 
+            <div class="social-without-bg">
+                <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a target="__blank" href="https://www.facebook.com/TED"><i class="fab fa-facebook-f "></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://twitter.com/tedtalks"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://www.youtube.com/ted"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://www.instagram.com/ted/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div *ngIf="content.title=='What is TEDx?'">
+            Follow TEDx:
+            <div class="social-without-bg">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a target="__blank" href="https://www.facebook.com/TEDxEvents/"><i class="fab fa-facebook-f "></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://twitter.com/TEDx"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://www.youtube.com/user/TEDxTalks"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a target="__blank" href="https://www.instagram.com/tedx_official/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+        <br>
+        <div *ngIf="content.title=='What is TEDxUniversityofPiraeus?'">
+            <h5>Find our TEDx event <a href="https://www.ted.com/tedx/events/33452" style="color:#d91f1f !important">here</a></h5>
+        </div>
+        <br>
+        <!-- <a href="javascript:void(0)" class="text-uppercase btn {{content?.btnBgClass}} btn-sm">
+         SEE MORE
+      </a>  -->
+    </div>
+</div>

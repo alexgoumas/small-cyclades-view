@@ -1,0 +1,51 @@
+<!-- Latest Blog Section -->
+<div class="blog-masonry-wrapper m-type-3">
+    <div class="container">
+        <div class="card-columns">
+
+            <div *ngFor="let speaker of itemBlocks" class="card border-0 border-rad mb-4">
+                <img [src]="speaker.images[0]" class="img-fluid border-rad-top w-100" alt="Speaker Image">
+                <div class="card-body p-3 border-rad-bottom">
+                    <h5 class="card-title mb-2">{{speaker.firstName}} {{speaker.middleName}} {{speaker.lastName}}</h5>
+                    <span class="text-primary d-block font-italic mb-3">{{speaker.occupation}}</span>
+                    <p class="card-text mb-4">{{speaker.description}}</p>
+
+                    <div class="card-footer px-0">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex align-content-start text-muted">
+                                <i class="fa fa-user-circle-o mr-2 font-lg align-self-center" style="color:#d91f1f;"></i>
+                                <span class="font-sm"> Performer/Speaker</span>
+                            </div>
+                            <div class="social-icons d-flex align-content-end">
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.email" [href]="speaker.contactDetails.email">
+                                    <span><i class="far fa-envelope"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.facebook"
+                                    [href]="speaker.contactDetails.facebook">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.instagram"
+                                    [href]="speaker.contactDetails.instagram">
+                                    <span><i class="fab fa-instagram"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.linkedIn"
+                                    [href]="speaker.contactDetails.linkedIn">
+                                    <span><i class="fab fa-linkedin"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.twitter" [href]="speaker.contactDetails.twitter">
+                                    <span><i class="fab fa-twitter"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.website" [href]="speaker.contactDetails.website">
+                                    <span><i class="fas fa-globe"></i></span>
+                                </a>
+                                <a class="mx-1" *ngIf="speaker.contactDetails && speaker.contactDetails.youtube" [href]="speaker.contactDetails.youtube">
+                                    <span><i class="fab fa-youtube"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Blog masonary wrapper closed -->

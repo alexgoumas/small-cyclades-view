@@ -1,0 +1,88 @@
+.platinum-sponsor {
+    max-height: 250px;
+    max-width: 450px;
+}
+
+.gold-sponsor {
+    max-height: 220px;
+    max-width: 420px;
+}
+
+.silver-sponsor {
+    // height: 180px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.bronze-sponsor {
+    max-height: 180px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.standard-sponsor {
+    max-height: 150px;
+    max-width: 350px;
+}
+
+.inkind-sponsor {
+    max-height: 150px;
+    max-width: 350px;
+}
+
+.media-sponsor {
+    max-height: 100px;
+    max-width: 300px;
+}
+
+.friend-sponsor {
+    max-height: 150px;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    .platinum-sponsor {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .gold-sponsor {
+        max-width: 350px;
+        max-height: 200px;
+    }
+
+    .silver-sponsor {
+        max-width: 300px;
+        max-height: 150px;
+    }
+
+    .bronze-sponsor {
+        max-width: 300px;
+        max-height: 150px;
+    }
+
+    .standard-sponsor {
+        max-width: 150px;
+        max-height: auto;
+    }
+
+    .inkind-sponsor {
+        max-width: 150px;
+        max-height: 100px;
+    }
+
+    .media-sponsor {
+        max-width: 150px;
+        max-height: 80px;
+    }
+
+    .friend-sponsor {
+        max-width: 150px;
+        max-height: 80px;
+    }
+
+    .friend-sponsor {
+        max-height: 150px;
+        max-width: 70px;
+    }
+}

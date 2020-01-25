@@ -1,0 +1,31 @@
+.countdown-section {
+    background: url('assets/img/countdown.jpg');
+    background-position-y: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mob-feature {
+    position: relative;
+}
+
+.about-section {
+    line-height: 22px;
+}
+
+.what-is-swipe {
+    color: #637282;
+}
+
+@media (min-width: 768px) {
+    .offset-md-2 {
+        margin-left: 16.666667%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .offset-lg-3 {
+        margin-left: 25%;
+    }
+}
