@@ -1,0 +1,28 @@
+
+<nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
+	<div class="container">
+		<a class="navbar-brand" [routerLink]="['/', 'home']" routerLinkActive="active-link">
+			The small cyclades view
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul id="main" class="navbar-nav ml-auto main-menu list-unstyled">
+				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a [routerLink]="['/', 'home']" class="nav-link" routerLinkActive="active-link" >Home</a>
+				</li>
+				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<a [routerLink]="['/', 'about']" class="nav-link" routerLinkActive="active-link" >About</a>
+					</li>
+				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a [routerLink]="['/', 'photos']" class="nav-link" routerLinkActive="active-link" >Photos</a>
+				</li>
+				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a [routerLink]="['/', 'contact-us']" class="nav-link" routerLinkActive="active-link" >Contact us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+

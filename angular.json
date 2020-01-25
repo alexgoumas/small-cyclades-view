@@ -28,8 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+              "src/styles.css",
+              "src/assets/scss/style.scss",
+              "src/assets/animate/animate.css",
+              "src/assets/slick/slick.css",
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/ionicons/dist/css/ionicons.css",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+          ],
             "scripts": []
           },
           "configurations": {
