@@ -3363,7 +3363,7 @@ var PhotosComponent = /** @class */ (function () {
     PhotosComponent.prototype.ngOnInit = function () {
         this.navbarVisible = this._menuController.check(this.router.url);
         this.images = [
-            { img: '../../assets/img/iraklia/1Photo.JPG ', alt: 'Image 1' },
+            { img: '../assets/img/iraklia/1Photo.JPG ', alt: 'Image 1' },
             { img: '../assets/img/iraklia/2Photo.JPG', alt: 'Image 2' },
             { img: '../assets/img/iraklia/3Photo.JPG', alt: 'Image 3' },
             { img: '../assets/img/iraklia/4Photo.JPG', alt: 'Image 4' },
