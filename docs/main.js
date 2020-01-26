@@ -311,7 +311,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- What is TED/TEDx? -->\r\n<div class=\"about-section py-6\">\r\n      <div class=\"container-fluid\">\r\n          <div class=\"row\" angly-serviceGrid [serviceGridContent]=\"services\"></div>\r\n      </div> \r\n  </div>\r\n\r\n"
+module.exports = "<!-- What is TED/TEDx? -->\r\n<header angly-header *ngIf=\"navbarVisible\"></header>\r\n<div class=\"about-section py-6\">\r\n      <div class=\"container-fluid\">\r\n        <h3>About Iraklia and The Small Cyclades View</h3>\r\n        <img src=\"../assets/img/iraklia/2Photo.JPG\" class=\"about-img\">\r\n\r\n        <p style=\"max-width: 500px\">This summer villa is located at the island Iraklia,\r\n         one out of the seven islands that make up the Small Cyclades in the Aegean Sea. Iraklia is known for its privacy and is a quiet island with a great natural environment and wonderful beaches. It is in the heart of the Aegean Sea, conveniently situated near the well-known island Naxos as well as other small islands such as Koufonisia, which can be reached with a boat or daily ferries.\r\n        Iraklia is the largest but least populated island of the Small Cyclades,\r\n         with around 150 permanent inhabitants spread in two settlements: Panagia or Hora, and Agios Georgios. One can reach the island from the port of Piraeus three times a week, or daily from the port of Naxos. For those interested we can also organize a transition via helicopter directly to the villa.\r\n          The relative lack of traffic and its largely pristine natural environment, as it is part of the Natura 2000 network, are the island’s most valuable features. \r\n          Iraklia is especially quiet, even during the busy tourist season, and therefore is an ideal place for anyone seeking tranquility. At Iraklia one can enjoy superb views of neighboring islands and mountains, go on hikes, take a boat to the remote beaches and nearby islands, and of course enjoy local Greek cuisine at taverns which offer daily fresh seafood.\r\n        This 420 sq.m. villa is located 300 m. outside of the village Agios Georgios,\r\n         and is at the corner of the Livadi Gulf, where the most beautiful sandy beach of the island lays. Nearly 5 minutes walk from the villa,\r\n          the beach is easily accessible by foot and car. The villa is built following the traditional Cycladic architecture, and is isolated with no other houses or lodges nearby, which means privacy and quietness are key benefits of the location. However, in our opinion, what makes this villa special is the indisputably stunning view of the other islands of the Small Cyclades and the Aegean.\r\n        The breathtaking view can be enjoyed from all rooms and surely from the 550 sq.m. beautiful veranda where you can also enjoy your breakfast,\r\n         lunch or dinner on a big wooden table, sunbath on one of the deck chairs or even organize your own barbeque.\r\n          The villa has a total of 8 bedrooms, all having their own bathroom, air conditioning and a TV, and can accommodate a total of 18 people.\r\n        Four of the bedrooms (1 with double bed, 1 with 2 single beds and 2 single-bed rooms) are in the central residence which also consists of a living room, a guest wc and a fully equipped kitchen with cookware,\r\n         microwave, washing machine etc. The other four bedrooms are autonomous guest suites right next to the central residence. Each of them has its own bathroom, air conditioning and a small kitchen. Two of them can accommodate 4 people and the rest can accommodate 2 people. The large number of bedrooms as well as the autonomous nature of the guest suites makes this villa great for groups of families with friends and/or service staff.\r\n        We would be happy to accommodate you and offer our suggestions on restaurants,\r\n         beaches and other activities you can enjoy on the island. Also, our cleaning services will clean the villa every three days free of charge.</p>\r\n        <p>*The minimum stay is 6 nights</p> <br>\r\n        You can also find us on <a href=\"https://www.homeaway.co.uk/p6521644?arrival=2020-08-06&departure=2020-08-13\">Homeaway</a> and on <a href=\"https://www.airbnb.gr/rooms/12188295?source_impression_id=p3_1580044160_jE731gPGbzwlHpaV\">Airbnb</a>.\r\n        <br>\r\n\r\n        <a href=\"https://www.homeaway.co.uk/p6521644?arrival=2020-08-06&departure=2020-08-13\"><img src=\"../assets/img/homeaway-logo.png\" style=\"width: 212px;\"></a>\r\n        <a href=\"https://www.airbnb.gr/rooms/12188295?source_impression_id=p3_1580044160_jE731gPGbzwlHpaV\"><img src=\"../assets/img/airbnb-logo.jpg\" style=\"height: 107px; margin-left: 60px;\"></a>\r\n      </div> \r\n  </div>\r\n\r\n"
 
 /***/ }),
 
@@ -322,7 +322,7 @@ module.exports = "<!-- What is TED/TEDx? -->\r\n<div class=\"about-section py-6\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".about-section {\n  margin-top: 80px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvRDpcXERvd25sb2Fkc1xcc21hbGwtY3ljbGFkZXMtdmlldy9zcmNcXGFwcFxcYWJvdXRcXGFib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQWdCLEVBQ25CIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWJvdXQtc2VjdGlvbiB7XHJcbiAgICBtYXJnaW4tdG9wOiA4MHB4O1xyXG59XHJcbiJdfQ== */"
+module.exports = ".about-section {\n  margin-top: 80px;\n  margin-left: 17%; }\n\n.about-img {\n  width: 570px;\n  float: right; }\n\n@media only screen and (max-width: 1020px) {\n  .about-img {\n    width: 400px; } }\n\n@media only screen and (min-width: 1630px) {\n  .about-img {\n    margin-right: 250px; } }\n\n@media only screen and (max-width: 770px) {\n  .about-section {\n    margin-top: 10px;\n    margin-left: 2%; }\n  .about-img {\n    margin-right: 250px;\n    float: none; } }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvRDpcXERvd25sb2Fkc1xcc21hbGwtY3ljbGFkZXMtdmlldy9zcmNcXGFwcFxcYWJvdXRcXGFib3V0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQWdCO0VBQ2hCLGlCQUFnQixFQUNuQjs7QUFDRDtFQUNJLGFBQVk7RUFDWixhQUFZLEVBQ2Y7O0FBRUQ7RUFDSTtJQUNJLGFBQVksRUFDZixFQUFBOztBQUdMO0VBQ0k7SUFDSSxvQkFBbUIsRUFDdEIsRUFBQTs7QUFHTDtFQUNJO0lBQ0ksaUJBQWdCO0lBQ2hCLGdCQUFlLEVBQ2xCO0VBQ0Q7SUFDSSxvQkFBbUI7SUFDbkIsWUFBVyxFQUNkLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9hYm91dC9hYm91dC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hYm91dC1zZWN0aW9uIHtcclxuICAgIG1hcmdpbi10b3A6IDgwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMTclO1xyXG59XHJcbi5hYm91dC1pbWcge1xyXG4gICAgd2lkdGg6IDU3MHB4OyBcclxuICAgIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDIwcHgpIHtcclxuICAgIC5hYm91dC1pbWcge1xyXG4gICAgICAgIHdpZHRoOiA0MDBweDsgXHJcbiAgICB9XHJcbn1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTYzMHB4KSB7XHJcbiAgICAuYWJvdXQtaW1nIHtcclxuICAgICAgICBtYXJnaW4tcmlnaHQ6IDI1MHB4O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzcwcHgpIHtcclxuICAgIC5hYm91dC1zZWN0aW9uIHtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgICAgIG1hcmdpbi1sZWZ0OiAyJTtcclxuICAgIH1cclxuICAgIC5hYm91dC1pbWcge1xyXG4gICAgICAgIG1hcmdpbi1yaWdodDogMjUwcHg7XHJcbiAgICAgICAgZmxvYXQ6IG5vbmU7XHJcbiAgICB9XHJcbiAgfSJdfQ== */"
 
 /***/ }),
 
@@ -337,9 +337,8 @@ module.exports = ".about-section {\n  margin-top: 80px; }\n\n/*# sourceMappingUR
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _core_page_title_page_title_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../core/page-title/page-title.service */ "./src/app/core/page-title/page-title.service.ts");
-/* harmony import */ var _service_chk_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/chk.service */ "./src/app/service/chk.service.ts");
-/* harmony import */ var _services_tedx_title_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/tedx-title.service */ "./src/app/services/tedx-title.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_menu_controller_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/menu-controller.service */ "./src/app/services/menu-controller.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -352,21 +351,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
 var AboutComponent = /** @class */ (function () {
-    function AboutComponent(pageTitleService, service, _titleService) {
-        var _this = this;
-        this.pageTitleService = pageTitleService;
-        this.service = service;
-        this._titleService = _titleService;
-        this.service.getServices().
-            subscribe(function (response) { _this.services = response; }, function (err) { return console.log(err); }, function () { return _this.services; });
-        this.service.getAbout().
-            subscribe(function (response) { _this.about = response; }, function (err) { return console.log(err); }, function () { return _this.about; });
-        this.service.getContactContent().
-            subscribe(function (response) { _this.contact = response; }, function (err) { return console.log(err); }, function () { return _this.contact; });
+    function AboutComponent(router, _menuController) {
+        this.router = router;
+        this._menuController = _menuController;
+        this.navbarVisible = true;
     }
     AboutComponent.prototype.ngOnInit = function () {
+        this.navbarVisible = this._menuController.check(this.router.url);
     };
     AboutComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -374,7 +366,7 @@ var AboutComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./about.component.html */ "./src/app/about/about.component.html"),
             styles: [__webpack_require__(/*! ./about.component.scss */ "./src/app/about/about.component.scss")]
         }),
-        __metadata("design:paramtypes", [_core_page_title_page_title_service__WEBPACK_IMPORTED_MODULE_1__["PageTitleService"], _service_chk_service__WEBPACK_IMPORTED_MODULE_2__["ChkService"], _services_tedx_title_service__WEBPACK_IMPORTED_MODULE_3__["TedxTitleService"]])
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_menu_controller_service__WEBPACK_IMPORTED_MODULE_2__["MenuControllerService"]])
     ], AboutComponent);
     return AboutComponent;
 }());
@@ -399,12 +391,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _main_main_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main/main.component */ "./src/app/main/main.component.ts");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./photos/photos.component */ "./src/app/photos/photos.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -417,17 +411,20 @@ var AppRoutes = [
     },
     {
         path: '',
-        component: _main_main_component__WEBPACK_IMPORTED_MODULE_3__["MainComponent"],
-        pathMatch: 'full',
-    }, {
-        path: '',
-        component: _main_main_component__WEBPACK_IMPORTED_MODULE_3__["MainComponent"],
-        children: [
-            {
-                path: 'about',
-                component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
-            }
-        ]
+        redirectTo: '/home',
+        pathMatch: 'full'
+    },
+    {
+        path: 'about',
+        component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
+    },
+    {
+        path: 'photos',
+        component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__["PhotosComponent"]
+    },
+    {
+        path: '**',
+        component: _main_main_component__WEBPACK_IMPORTED_MODULE_3__["MainComponent"]
     }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -655,6 +652,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blog_blog_module__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./blog/blog.module */ "./src/app/blog/blog.module.ts");
 /* harmony import */ var _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./schedule/schedule.component */ "./src/app/schedule/schedule.component.ts");
 /* harmony import */ var _schedule_schedule_item_schedule_item_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./schedule/schedule-item/schedule-item.component */ "./src/app/schedule/schedule-item/schedule-item.component.ts");
+/* harmony import */ var _photos_photos_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./photos/photos.component */ "./src/app/photos/photos.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -673,6 +671,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 /* Service */
 
 /* components */
+
 
 
 
@@ -749,7 +748,8 @@ var AppModule = /** @class */ (function () {
                 _pipes_sponsor_type_to_img_class_pipe__WEBPACK_IMPORTED_MODULE_43__["SponsorTypeToImgClassPipe"],
                 _pipes_sponsor_type_to_col_class_pipe__WEBPACK_IMPORTED_MODULE_44__["SponsorTypeToColPipe"],
                 _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_47__["ScheduleComponent"],
-                _schedule_schedule_item_schedule_item_component__WEBPACK_IMPORTED_MODULE_48__["ScheduleItemComponent"]
+                _schedule_schedule_item_schedule_item_component__WEBPACK_IMPORTED_MODULE_48__["ScheduleItemComponent"],
+                _photos_photos_component__WEBPACK_IMPORTED_MODULE_49__["PhotosComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -2341,10 +2341,6 @@ var CountdownComponent = /** @class */ (function () {
     }
     CountdownComponent.prototype.ngOnInit = function () { };
     CountdownComponent.prototype.ngAfterViewInit = function () {
-        this.daysElement = this.days.nativeElement;
-        this.hoursElement = this.hours.nativeElement;
-        this.minutesElement = this.minutes.nativeElement;
-        this.secondsElement = this.seconds.nativeElement;
         this.number = Math.abs(moment__WEBPACK_IMPORTED_MODULE_1__().diff(this.targetDate, "seconds"));
         this.timer(this.number);
     };
@@ -2380,22 +2376,6 @@ var CountdownComponent = /** @class */ (function () {
         this.minutesElement.textContent = "" + Math.floor((seconds % 86400) % 3600 / 60);
         this.secondsElement.textContent = "" + (seconds % 60 < 10 ? "0" + seconds % 60 : seconds % 60);
     };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])("days"),
-        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
-    ], CountdownComponent.prototype, "days", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])("hours"),
-        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
-    ], CountdownComponent.prototype, "hours", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])("minutes"),
-        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
-    ], CountdownComponent.prototype, "minutes", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])("seconds"),
-        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
-    ], CountdownComponent.prototype, "seconds", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", Date)
@@ -2608,7 +2588,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"router?.url != '/sign-up' && router?.url != '/login' && router?.url != '/thank-you' && router?.url != '/not-found' && router?.url != '/maintenance'\">\r\n   <!-- Footer section 2 -->\r\n   <div *ngIf=\"router?.url != '/home'\" angly-subscribe [subscribeFormClasses]=\"subscribeFormClasses\"></div>\r\n   <!-- <div angly-footerLogoList [logoList]=\"footerLogo\" class=\"client-logo\"></div> -->\r\n   <div class=\"footer-wrapper-2 pt-5 pb-0 pb-md-5 bg-light\">\r\n      <div class=\"container container-full-width\">\r\n         <div class=\"row\">\r\n            <div class=\"col-12 col-md-6 d-flex justify-content-center justify-content-md-start\">\r\n               <img src=\"../../assets/img/papei.png\" class=\"papei_logo\">\r\n            </div>\r\n         </div>\r\n         <div class=\"row\">\r\n            <div class=\"col-12 d-flex flex-column justify-content-center flex-md-row justify-content-md-between\">\r\n               <span class=\"text-muted\">&copy; 2019, All right reserved | This independently organized TEDx event is operated under license from TED. </span>\r\n               <div class=\"social-without-bg text-right\">\r\n                  <ul class=\"list-inline mb-0\">\r\n                     <li class=\"list-inline-item\"><a target=\"__blank\" href=\"https://www.facebook.com/TEDxUniversityofPiraeus/\"><i class=\"fab fa-facebook-f \"></i></a></li>\r\n                     <li class=\"list-inline-item\"><a target=\"__blank\" href=\"https://www.flickr.com/photos/tedxuniversityofpiraeus/\"><i class=\"fab fa-flickr\"></i></a></li>\r\n                     <li class=\"list-inline-item\"><a target=\"__blank\" href=\"https://www.youtube.com/channel/UCe-Ek8O9ewzYKakhbCglxNw\"><i class=\"fab fa-youtube\"></i></a></li>\r\n                     <li class=\"list-inline-item\"><a target=\"__blank\" href=\"https://www.linkedin.com/company/tedxuniversityofpiraeus/\"><i class=\"fab fa-linkedin\"></i></a></li>\r\n                     <li class=\"list-inline-item\"><a target=\"__blank\" href=\"https://www.instagram.com/tedxuniversityofpiraeus/\"><i class=\"fab fa-instagram\"></i></a></li>\r\n                  </ul>\r\n               </div>\r\n            </div>\r\n         </div>\r\n      </div><!-- container closed -->\r\n   </div><!-- Footer wrapper closed -->\r\n   <!-- Back To Top -->\r\n   <a href=\"#\" id=\"back-top\" class=\"to-top scrolled\" (click)=\"topScroll($event)\"> <span class=\"to-top-icon\"></span> </a>\r\n</div>\r\n"
+module.exports = "<div>\r\n   <div class=\"footer-wrapper-2 pt-5 pb-0 pb-md-5 bg-light\">\r\n      <div class=\"container container-full-width\">\r\n         <div class=\"row\">\r\n            <div class=\"col-12 d-flex flex-column justify-content-center flex-md-row justify-content-md-between\">\r\n               <span class=\"text-muted\">The small cyclades view / Iraklia. Konstantinos Gkoumas </span>\r\n            </div>\r\n         </div>\r\n      </div>\r\n   </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -2938,7 +2918,7 @@ var LoadingOverlayComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div #scrollContainer class=\"over-scroll\" (scroll)=\"onScroll($event)\" [ngClass]=\"{'fixed-header' : fixedHeaderClass}\">\r\n<header angly-header *ngIf=\"navbarVisible\"></header>\r\n\r\n<div *ngIf=\"router?.url == '/home'\" class=\"site-banner\">\r\n    <div class=\"banner-wrapper\">\r\n        <div class=\"banner-inner\" style=\"z-index: 1; width: 700px;\">\r\n            <div class=\"banner-content container text-center container-full-width\">\r\n                    <h2 class=\"display-3 text-white pre-event\">Visit Iraklia</h2>\r\n                <a class=\"btn btn-lg btn-outline-light mb-3 px-4 py-2 btn-chk\" href=\"https://www.youtube.com/watch?v=2iYIgImAStE\" target=\"__blank\">\r\n                     Contact us\r\n                </a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n<div class=\"angly-base-container\">\r\n  <div class=\"inner-container\">\r\n\t\t<router-outlet (activate)=\"onActivate($event, scrollContainer)\"></router-outlet>\r\n  </div>\r\n</div>\r\n\r\n<!-- <footer angly-footer2></footer> -->\r\n</div>\r\n"
+module.exports = "<div #scrollContainer class=\"over-scroll\" (scroll)=\"onScroll($event)\" [ngClass]=\"{'fixed-header' : fixedHeaderClass}\">\r\n<header angly-header *ngIf=\"navbarVisible\"></header>\r\n\r\n<div *ngIf=\"router?.url == '/home'\" class=\"site-banner\">\r\n    <div class=\"banner-wrapper\">\r\n        <div class=\"banner-inner\" style=\"z-index: 1; width: 700px;\">\r\n            <div class=\"banner-content container text-center container-full-width\">\r\n                    <h2 class=\"display-3 text-white pre-event\">Visit Iraklia</h2>\r\n                <a class=\"btn btn-lg btn-outline-light mb-3 px-4 py-2 btn-chk\" href=\"https://www.youtube.com/watch?v=2iYIgImAStE\" target=\"__blank\">\r\n                     Contact us\r\n                </a>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n<div class=\"angly-base-container\">\r\n  <div class=\"inner-container\">\r\n\t\t<router-outlet (activate)=\"onActivate($event, scrollContainer)\"></router-outlet>\r\n  </div>\r\n</div>\r\n\r\n<footer angly-footer2></footer> \r\n</div>\r\n"
 
 /***/ }),
 
@@ -3322,6 +3302,105 @@ var Team;
     Team[Team["Digital"] = 5] = "Digital";
     Team[Team["Production"] = 6] = "Production";
 })(Team || (Team = {}));
+
+
+/***/ }),
+
+/***/ "./src/app/photos/photos.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/photos/photos.component.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob3Rvcy9waG90b3MuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/photos/photos.component.html":
+/*!**********************************************!*\
+  !*** ./src/app/photos/photos.component.html ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<header angly-header *ngIf=\"navbarVisible\"></header>\n\n  <hr class=\"mt-2 mb-5\"> <br><br>\n  <div class=\"container\"><h4>A combination of tranquility, beautiful view and comfort in Cyclades, The Small Cyclades View (Iraklia / Ηρακλειά)</h4>\n    <br>\n    <b>It can accommodate 18 people and you have to book the entire villa.</b>\n  </div> <br>\n  <div class=\"row text-center text-lg-left\">\n    <div *ngFor=\"let image of images\" class=\"col-lg-4 col-md-5 col-6\"> \n      <img class=\"img-fluid img-thumbnail\" [src]=\"image.img\" alt=\"image.alt\">   \n    </div>\n  </div>\n"
+
+/***/ }),
+
+/***/ "./src/app/photos/photos.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/photos/photos.component.ts ***!
+  \********************************************/
+/*! exports provided: PhotosComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhotosComponent", function() { return PhotosComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_menu_controller_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/menu-controller.service */ "./src/app/services/menu-controller.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var PhotosComponent = /** @class */ (function () {
+    function PhotosComponent(router, _menuController) {
+        this.router = router;
+        this._menuController = _menuController;
+        this.navbarVisible = true;
+        this.images = [];
+    }
+    PhotosComponent.prototype.ngOnInit = function () {
+        this.navbarVisible = this._menuController.check(this.router.url);
+        this.images = [
+            { img: '../../assets/img/iraklia/1Photo.JPG ', alt: 'Image 1' },
+            { img: '../assets/img/iraklia/2Photo.JPG', alt: 'Image 2' },
+            { img: '../assets/img/iraklia/3Photo.JPG', alt: 'Image 3' },
+            { img: '../assets/img/iraklia/4Photo.JPG', alt: 'Image 4' },
+            { img: '../assets/img/iraklia/5Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/6Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/7Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/8Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/9Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/10Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/11Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/12Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/13Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/14Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/15Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/16Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/17Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/18Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/19Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/20Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/21Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/22Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/23Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/24Photo.JPG', alt: 'Image 5' },
+            { img: '../assets/img/iraklia/25Photo.JPG', alt: 'Image 5' }
+        ];
+    };
+    PhotosComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-photos',
+            template: __webpack_require__(/*! ./photos.component.html */ "./src/app/photos/photos.component.html"),
+            styles: [__webpack_require__(/*! ./photos.component.css */ "./src/app/photos/photos.component.css")]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], _services_menu_controller_service__WEBPACK_IMPORTED_MODULE_2__["MenuControllerService"]])
+    ], PhotosComponent);
+    return PhotosComponent;
+}());
+
 
 
 /***/ }),
