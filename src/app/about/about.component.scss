@@ -1,3 +1,31 @@
 .about-section {
     margin-top: 80px;
+    margin-left: 17%;
 }
+.about-img {
+    width: 570px; 
+    float: right;
+}
+
+@media only screen and (max-width: 1020px) {
+    .about-img {
+        width: 400px; 
+    }
+}
+
+@media only screen and (min-width: 1630px) {
+    .about-img {
+        margin-right: 250px;
+    }
+  }
+
+@media only screen and (max-width: 770px) {
+    .about-section {
+        margin-top: 10px;
+        margin-left: 2%;
+    }
+    .about-img {
+        margin-right: 250px;
+        float: none;
+    }
+  }

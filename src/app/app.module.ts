@@ -55,7 +55,7 @@ import { TedxTitleService } from './services/tedx-title.service';
 import { BlogModule } from './blog/blog.module';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { ScheduleItemComponent } from './schedule/schedule-item/schedule-item.component';
-import { TimePipe } from './pipes/time.pipe';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +89,8 @@ import { TimePipe } from './pipes/time.pipe';
     SponsorTypeToImgClassPipe,
     SponsorTypeToColPipe,
     ScheduleComponent,
-    ScheduleItemComponent
+    ScheduleItemComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

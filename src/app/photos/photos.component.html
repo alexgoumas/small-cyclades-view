@@ -1,0 +1,12 @@
+<header angly-header *ngIf="navbarVisible"></header>
+
+  <hr class="mt-2 mb-5"> <br><br>
+  <div class="container"><h4>A combination of tranquility, beautiful view and comfort in Cyclades, The Small Cyclades View (Iraklia / Ηρακλειά)</h4>
+    <br>
+    <b>It can accommodate 18 people and you have to book the entire villa.</b>
+  </div> <br>
+  <div class="row text-center text-lg-left">
+    <div *ngFor="let image of images" class="col-lg-4 col-md-5 col-6"> 
+      <img class="img-fluid img-thumbnail" [src]="image.img" alt="image.alt">   
+    </div>
+  </div>

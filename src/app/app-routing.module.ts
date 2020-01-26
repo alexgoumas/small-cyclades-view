@@ -3,22 +3,32 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 
 import { MainComponent }   from './main/main.component';
-import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { PhotosComponent } from './photos/photos.component';
 
-export const AppRoutes: Routes = [{
-   path: '',
-   redirectTo: 'home',
-   pathMatch: 'full',
-   },{
+export const AppRoutes: Routes = [
+   {
+      path: 'home',
+      component: MainComponent
+   },
+   { 
       path: '',
-      component: MainComponent,
-      children: [
-         {
-            path: 'home',
-            component: HomeComponent
-         }
-      ]
-}];
+      redirectTo: '/home',
+      pathMatch: 'full'
+  },
+  {
+      path: 'about',
+      component: AboutComponent
+   },
+   {
+      path: 'photos',
+      component: PhotosComponent
+   },
+  { 
+     path: '**', 
+     component: MainComponent }
+   
+];
 
 @NgModule({
   imports: [

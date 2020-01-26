@@ -7,10 +7,6 @@ import * as moment from 'moment';
 })
 
 export class CountdownComponent implements OnInit, AfterViewInit {
-    @ViewChild("days") days: ElementRef;
-    @ViewChild("hours") hours: ElementRef;
-    @ViewChild("minutes") minutes: ElementRef;
-    @ViewChild("seconds") seconds: ElementRef;
 
     @Input()
     targetDate: Date;
@@ -29,10 +25,6 @@ export class CountdownComponent implements OnInit, AfterViewInit {
     ngOnInit() { }
 
     ngAfterViewInit() {
-        this.daysElement = this.days.nativeElement;
-        this.hoursElement = this.hours.nativeElement;
-        this.minutesElement = this.minutes.nativeElement;
-        this.secondsElement = this.seconds.nativeElement;
         this.number = Math.abs(moment().diff(this.targetDate, "seconds"));
         this.timer(this.number);
     }

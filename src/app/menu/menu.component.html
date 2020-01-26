@@ -2,7 +2,7 @@
 <nav id="mainNav" class="navbar navbar-expand-md navbar-dark fixed-top">
 	<div class="container">
 		<a class="navbar-brand" [routerLink]="['/', 'home']" routerLinkActive="active-link">
-			<img src="assets/img/logo-tedxunipi.png" class="img-fluid" style="max-height: 60px; min-width: 150px;">
+			<img src="assets/img/logo.png" class="img-fluid" style="max-height: 60px; min-width: 150px;">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -16,20 +16,12 @@
 						<a [routerLink]="['/', 'about']" class="nav-link" routerLinkActive="active-link" >About</a>
 					</li>
 				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a [routerLink]="['/', 'speakers']" class="nav-link" routerLinkActive="active-link" >Speakers</a>
-				</li>
-				<li class="nav-item" routerLinkActive="open" *ngIf="workshops"data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a [routerLink]="['/', 'workshops']" class="nav-link" routerLinkActive="active-link" >Workshops</a>
+					<a [routerLink]="['/', 'photos']" class="nav-link" routerLinkActive="active-link" >Photos</a>
 				</li>
 				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a [routerLink]="['/', 'partners']" class="nav-link" routerLinkActive="active-link" >Partners</a>
+					<a [routerLink]="['/', 'contact-us']" class="nav-link" routerLinkActive="active-link" >Contact us</a>
 				</li>
-				<li class="nav-item" routerLinkActive="open" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a [routerLink]="['/', 'team']" class="nav-link" routerLinkActive="active-link" >Team</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a href="https://blog.tedxuniversityofpiraeus.com" class="nav-link" target="__blank" >Blog</a>
-				</li>
+
 			</ul>
 		</div>
 	</div>

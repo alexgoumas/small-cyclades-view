@@ -1,9 +1,9 @@
 /*========== Home Css ==========*/
-$tedx-red: #d91f1f;
+$tedx-red: #47afef;
 .site-banner {
   background: 
     linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), 
-    url("../../assets/img/architecture2.jpg");
+    url("../../assets/img/main-photo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -154,7 +154,6 @@ $tedx-red: #d91f1f;
   }
 }
 .work-with-us {
-  background: url("../../assets/img/work-with-us.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
@@ -207,7 +206,6 @@ $tedx-red: #d91f1f;
 }
 /*======== Testimonial Section ==========*/
 .testimonial-section {
-    background: url("../../assets/img/testimonials.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -248,7 +246,6 @@ $tedx-red: #d91f1f;
 }
 
 .send-msg {
-  background: url("../../assets/img/send-message.jpg");
   background-position: center center;
   background-attachment:fixed;
   background-size:cover;
