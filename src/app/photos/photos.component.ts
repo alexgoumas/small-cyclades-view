@@ -19,12 +19,12 @@ export class PhotosComponent implements OnInit {
      this.navbarVisible = this._menuController.check(this.router.url);
 
      this.images = [
-      { img: '../assets/img/iraklia/1Photo.JPG ', alt: 'Image 1' },
-      { img: '../assets/img/iraklia/2Photo.JPG', alt: 'Image 2' },
-      { img: '../assets/img/iraklia/3Photo.JPG', alt: 'Image 3' },
-      { img: '../assets/img/iraklia/4Photo.JPG', alt: 'Image 4' },
-      { img: '../assets/img/iraklia/5Photo.JPG', alt: 'Image 5' },
-      { img: '../assets/img/iraklia/6Photo.JPG', alt: 'Image 5' },
+      { img: '../assets/img/main-photo.jpg ', alt: 'Image 1' },
+      { img: '../assets/img/2Photo.JPG', alt: 'Image 2' },
+      { img: '../assets/img/3Photo.JPG', alt: 'Image 3' },
+      { img: '../assets/img/4Photo.JPG', alt: 'Image 4' },
+      { img: '../assets/img/5Photo.JPG', alt: 'Image 5' },
+      { img: '../assets/img/6Photo.JPG', alt: 'Image 5' },
       { img: '../assets/img/iraklia/7Photo.JPG', alt: 'Image 5' },
       { img: '../assets/img/iraklia/8Photo.JPG', alt: 'Image 5' },
       { img: '../assets/img/iraklia/9Photo.JPG', alt: 'Image 5' },
