@@ -1,0 +1,50 @@
+{
+  "data":[
+    {
+      "title":"Student Ticket",
+      "home_title":"Student",
+      "bg_color":"bg-primary",
+      "price": 10,
+      "currency": "€",
+      "price_type": "month",
+      "pricing_list":[
+        {"icon":"fa-check text-success", "value":"Full Access to talks"},
+        {"icon":"fa-check text-success", "value":"Full Access to workshops"},
+        {"icon":"fa-check text-success", "value":"Delegates Bag"},
+        {"icon":"fa-check text-success", "value":"Verification with Academic ID"}
+      ],
+      "url":"https://www.eventbrite.com/e/tedxuniversityofpiraeus-2019-swipe-tickets-60684497967"
+    },
+    {
+      "title":"Standard Ticket",
+      "home_title":"Standard",
+      "bg_color":"bg-success",
+      "price": 17,
+      "currency": "€",
+      "price_type": "month",
+      "pricing_list":[
+        {"icon":"fa-check text-success", "value":"Full Access to talks"},
+        {"icon":"fa-check text-success", "value":"Full Access to workshops"},
+        {"icon":"fa-check text-success", "value":"Delegates Bag"}
+      ],
+      "url":"https://www.eventbrite.com/e/tedxuniversityofpiraeus-2019-swipe-tickets-60684497967"
+    },
+    {
+      "title":"VIP Ticket",
+      "home_title":"VIP",
+      "bg_color":"bg-warning",
+      "price": 30,
+      "currency": "€",
+      "price_type": "month",
+      "pricing_list":[
+        {"icon":"fa-check text-success", "value":"Full Access to talks"},
+        {"icon":"fa-check text-success", "value":"Priority Workshops"},
+        {"icon":"fa-check text-success", "value":"Delegates Bag"},
+        {"icon":"fa-check text-success", "value":"Priority Registration"},
+        {"icon":"fa-check text-success", "value":"Front Row Seats"},
+        {"icon":"fa-check text-success", "value":"Extra Benefits"}
+      ],
+      "url":"https://www.eventbrite.com/e/tedxuniversityofpiraeus-2019-swipe-tickets-60684497967"
+    }
+  ]
+}
