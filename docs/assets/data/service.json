@@ -1,0 +1,34 @@
+{
+   "data":[
+      {
+        "icon":{
+          "name":"assets/img/ted-logo.png",
+          "color":"text-danger"
+        },
+        "title":"What is TED?",
+        "content":"TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 26 years ago, TED has grown to support those world-changing ideas with multiple initiatives. At TED, the world’s leading thinkers and doers are asked to give the talk of their lives in 18 minutes. Talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Benoit Mandelbrot, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown. Two major TED events are held each year: The TED Conference takes place every spring in Long Beach, California (along with a parallel conference, TEDActive, in Palm Springs), and TEDGlobal is held each summer in Edinburgh, Scotland.",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-warning"
+      },
+      {
+        "icon":{
+          "name":"assets/img/tedx-logo.png",
+          "color":"text-danger"
+        },
+        "title":"What is TEDx?",
+        "content":"True to the TED spirit ‘’Ideas worth spreading’’ TEDx was created in 2009. This program gives communities, organizations, libraries, universities and individuals the opportunity to stimulate dialogue through TED-like experiences at the local level. TEDx events are planned and coordinated independently by volunteers. At this point there are more than 130 countries with a total of 4.524 events globally. In 2009 more than 230 TEDx events where organized with some examples of cities they were held in being London, Athens, Tokyo, Madrid and Singapore. The very same year more than 80 translations of TED talks were made and the phenomenon spread all around the globe. TEDx has brought a revolution in universal education giving access to every society to hear a different idea.",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-primary"
+      },
+      {
+        "icon":{
+          "name":"assets/img/tedxunipi-logo.png",
+          "color":"text-danger"
+        },
+        "title":"What is TEDxUniversityofPiraeus?",
+        "content":"TEDxUniversityofPiraeus is an independently organized event by the students of University of Piraeus. The team consists of active and highly ambitious individuals who aim to promote the core driver behind TED, ‘Ideas Worth Spreading’.The driver behind this motive is to encourage the students of University of Piraeus to reevaluate their goals in life and future. The goal is to host an event which will become food for thought, since several fields will be covered, such as technology, entrepreneurship, culture, art, design, science and education.The speakers will share their experiences and ideas, in an inspirational way which the audience will be intrigued to see things from a different perspective. We plan to motivate the youth to take action today, in order to build the future which we desire to live in.",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-info"
+      }
+   ]
+}
