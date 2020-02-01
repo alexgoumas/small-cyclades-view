@@ -356,8 +356,8 @@ var AboutComponent = /** @class */ (function () {
         this.router = router;
         this._menuController = _menuController;
         this.navbarVisible = true;
-        this.homeaway = "assets/img/homeaway-logo.PNG";
-        this.airbnb = "assets/img/airbnb-logo.JPG";
+        this.homeaway = "assets/img/homeaway-logo.png";
+        this.airbnb = "assets/img/airbnb-logo.jpg";
     }
     AboutComponent.prototype.ngOnInit = function () {
         this.navbarVisible = this._menuController.check(this.router.url);
