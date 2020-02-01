@@ -10,6 +10,8 @@ import { MenuControllerService } from '../services/menu-controller.service';
 export class AboutComponent implements OnInit {
 
    navbarVisible: boolean = true;
+   homeaway: string = "assets/img/homeaway-logo.PNG";
+   airbnb: string = "assets/img/airbnb-logo.JPG";
 
    constructor(public router: Router, private _menuController: MenuControllerService) {
    }
