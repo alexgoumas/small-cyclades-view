@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainComponent }   from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { PhotosComponent } from './photos/photos.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const AppRoutes: Routes = [
    {
@@ -23,6 +24,10 @@ export const AppRoutes: Routes = [
    {
       path: 'photos',
       component: PhotosComponent
+   },
+   {
+      path: 'contact-us',
+      component: ContactComponent
    },
   { 
      path: '**', 

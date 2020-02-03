@@ -394,12 +394,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_main_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main/main.component */ "./src/app/main/main.component.ts");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 /* harmony import */ var _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./photos/photos.component */ "./src/app/photos/photos.component.ts");
+/* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -423,6 +425,10 @@ var AppRoutes = [
     {
         path: 'photos',
         component: _photos_photos_component__WEBPACK_IMPORTED_MODULE_5__["PhotosComponent"]
+    },
+    {
+        path: 'contact-us',
+        component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"]
     },
     {
         path: '**',
@@ -1471,7 +1477,7 @@ var BlogSidebarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"contact-widget section-gap\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t      \t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t\t<i class=\"fa fa-phone text-warning fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h4 class=\"text-warning mb-3\"> Call Us </h4>\r\n\t\t\t\t<div *ngFor=\"let phone of contact?.phone\">\r\n\t\t\t\t\t<h5 *ngIf=\"phone?.status == 1\">\r\n\t\t\t\t\t\t<a class=\"text-dark\" href=\"tel:{{phone?.value}}\">{{phone?.value}}</a>\r\n\t\t\t\t\t</h5>\r\n\t\t\t\t</div>\r\n\t      \t</div>\r\n\t\t\t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t<i class=\"fa fa-envelope-o text-warning fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h4 class=\"text-warning mb-3\"> Send Us Mail </h4>\r\n\t\t\t\t<div *ngFor=\"let email of contact?.email\">\r\n\t\t\t\t\t<h5 *ngIf=\"email?.status == 0\">\r\n\t\t\t\t\t\t<a class=\"text-dark\" href=\"mailto:{{email?.value}}\">{{email?.value}}</a>\r\n\t\t\t\t\t</h5>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t<i class=\"fa fa-comments text-warning fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h5 class=\"text-warning mb-3\"> Get Instant Help </h5>\r\n\t\t\t\t<a href=\"javascript:void(0)\" class=\"btn bg-green btn-sm\"> Live Chat </a>\r\n\t\t\t</div>\r\n\t   </div>\r\n\t</div>\r\n</div>\r\n<div class=\"contact-info\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"col-sm-12 col-md-12 col-lg-7\">\r\n\t\t\t\t<angly-map width=\"650\" height=\"600\"></angly-map>\r\n\t\t\t\t<!-- <div class=\"google-maps mb-3\">\r\n\t\t\t\t\t<div class=\"mapouter\">\r\n\t\t\t\t\t   <div class=\"gmap_canvas\">\r\n\t\t\t\t\t      <iframe class=\"border-rad\" width=\"650\" height=\"600\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=Mohali%2C%20IN&t=&z=14&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\">\r\n\t\t\t\t\t      </iframe> -->\r\n\t\t\t\t\t      <!-- embed google map by <a href=\"http://www.embedgooglemap.net\">embedgooglemap.net</a> -->\r\n\t\t\t\t\t   <!-- </div>\r\n\t\t\t\t\t   <style>.mapouter{overflow:hidden;height:600px;width:650px;}.gmap_canvas {background:none!important;height:600px;width:650px;}</style>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div> -->\r\n\t\t\t</div>\r\n\t\t\t<div class=\"col-sm-12 col-md-12 col-lg-5\">\r\n\t\t\t\t<div angly-sendMessage></div>\r\n\t\t\t </div>\r\n\t\t </div>\r\n\t</div>\r\n</div>\r\n<div class=\"follow-us text-center section-gap\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"mb-5\">\r\n\t\t\t<h2> Follow Us</h2>\r\n\t\t</div>\r\n\t\t<div class=\"social-icon-widget\">\r\n\t\t\t<ul class=\"list-inline mb-0\">\r\n\t\t\t\t<li class=\"list-inline-item mx-2\"><a href=\"javascript:void(0)\" class=\"square-60 rounded-circle bg-facebook\"><i class=\"fa fa-facebook fa-inverse\"></i></a></li>\r\n\t\t\t\t<li class=\"list-inline-item mx-2\"><a href=\"javascript:void(0)\" class=\"square-60 rounded-circle bg-twitter\"><i class=\"fa fa-twitter fa-inverse\"></i></a></li>\r\n\t\t\t\t<li class=\"list-inline-item mx-2\"><a href=\"javascript:void(0)\" class=\"square-60 rounded-circle bg-google\"><i class=\"fa fa-google-plus fa-inverse\"></i></a></li>\r\n\t\t\t\t<li class=\"list-inline-item mx-2\"><a href=\"javascript:void(0)\" class=\"square-60 rounded-circle bg-pinterest\"><i class=\"fa fa-pinterest fa-inverse\"></i></a></li>\r\n\t\t\t\t<li class=\"list-inline-item mx-2\"><a href=\"javascript:void(0)\" class=\"square-60 rounded-circle bg-linked\"><i class=\"fa fa-linkedin fa-inverse\"></i></a></li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n</div>"
+module.exports = "<header angly-header></header>\r\n<div class=\"contact-widget section-gap contact-page\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t\t<i class=\"fa fa-user-o light-blue fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h4 class=\"light-blue mb-3\"> Name </h4>\r\n\t\t\t\t<h5>\r\n\t\t\t\t\tKonstantinos Gkoumas\r\n\t\t\t\t</h5>\r\n\t      \t</div>\r\n\t      \t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t\t<i class=\"fa fa-phone light-blue fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h4 class=\"light-blue mb-3\"> Call Us </h4>\r\n\t\t\t\t<h5>\r\n\t\t\t\t\t<a class=\"text-dark\" href=\"tel:{{+306937480660}}\">+306937480660</a><br>\r\n\t\t\t\t\t<a class=\"text-dark\" href=\"tel:{{+306944435373}}\">+306944435373</a>\r\n\t\t\t\t</h5>\r\n\t      \t</div>\r\n\t\t\t<div class=\"col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center\">\r\n\t\t\t\t<div class=\"contact-icon mb-4\">\r\n\t\t\t\t<i class=\"fa fa-envelope-o light-blue fa-3x\"></i>\r\n\t\t\t\t</div>\r\n\t\t\t\t<h4 class=\"light-blue mb-3\"> Send Us Mail </h4>\r\n\t\t\t\t<h6>\r\n\t\t\t\t\t<a class=\"text-dark\" href=\"mailto:thesmallcycladesview@gmail.com\">thesmallcycladesview@gmail.com</a>\r\n\t\t\t\t</h6>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\r\n\t   </div>\r\n\t</div>\r\n</div>\r\n<div class=\"contact-info\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"row\">\r\n\t\t\t<div class=\"col-sm-12 col-md-12 col-lg-12\">\r\n\t\t\t\t<img width=\"870\" height=\"600\" [src]=\"map\">   \r\n\t\t\t\t<!-- <angly-map width=\"650\" height=\"600\"></angly-map> -->\r\n\t\t\t</div>\r\n\t\t\t<!-- <div class=\"col-sm-12 col-md-12 col-lg-5\">\r\n\t\t\t\t<div angly-sendMessage></div>\r\n\t\t\t </div> -->\r\n\t\t </div>\r\n\t</div>\r\n</div>\r\n<div class=\"follow-us text-center section-gap\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"mb-5\">\r\n\t\t\t<h4>Located in the island of Iraklia</h4>\r\n\t\t</div>\r\n\t</div>\r\n</div>"
 
 /***/ }),
 
@@ -1482,7 +1488,7 @@ module.exports = "<div class=\"contact-widget section-gap\">\r\n\t<div class=\"c
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = ".contact-page {\n  margin-top: 50px; }\n\n.light-blue {\n  color: #47afef; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9EOlxcRG93bmxvYWRzXFxzbWFsbC1jeWNsYWRlcy12aWV3L3NyY1xcYXBwXFxjb250YWN0XFxjb250YWN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksaUJBQWdCLEVBQ25COztBQUNEO0VBQ0ksZUFBYyxFQUNqQiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWN0LXBhZ2Uge1xyXG4gICAgbWFyZ2luLXRvcDogNTBweDtcclxufVxyXG4ubGlnaHQtYmx1ZSB7XHJcbiAgICBjb2xvcjogIzQ3YWZlZjtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -1498,7 +1504,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _core_page_title_page_title_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../core/page-title/page-title.service */ "./src/app/core/page-title/page-title.service.ts");
-/* harmony import */ var _service_chk_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service/chk.service */ "./src/app/service/chk.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1510,18 +1515,12 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
-
 var ContactComponent = /** @class */ (function () {
-    function ContactComponent(pageTitleService, service) {
-        var _this = this;
+    function ContactComponent(pageTitleService) {
         this.pageTitleService = pageTitleService;
-        this.service = service;
+        this.map = 'assets/img/map.png';
         /* Page title */
         this.pageTitleService.setTitle(" Lets Get In Touch ");
-        /* Page subTitle */
-        this.pageTitleService.setSubTitle(" Our latest news and learning articles. ");
-        this.service.getContactContent().
-            subscribe(function (response) { _this.contact = response; }, function (err) { return console.log(err); }, function () { return _this.contact; });
     }
     ContactComponent.prototype.ngOnInit = function () {
     };
@@ -1531,7 +1530,7 @@ var ContactComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./contact.component.html */ "./src/app/contact/contact.component.html"),
             styles: [__webpack_require__(/*! ./contact.component.scss */ "./src/app/contact/contact.component.scss")]
         }),
-        __metadata("design:paramtypes", [_core_page_title_page_title_service__WEBPACK_IMPORTED_MODULE_1__["PageTitleService"], _service_chk_service__WEBPACK_IMPORTED_MODULE_2__["ChkService"]])
+        __metadata("design:paramtypes", [_core_page_title_page_title_service__WEBPACK_IMPORTED_MODULE_1__["PageTitleService"]])
     ], ContactComponent);
     return ContactComponent;
 }());

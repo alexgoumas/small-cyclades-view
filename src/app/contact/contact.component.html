@@ -1,73 +1,57 @@
-<div class="contact-widget section-gap">
+<header angly-header></header>
+<div class="contact-widget section-gap contact-page">
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
+				<div class="contact-icon mb-4">
+					<i class="fa fa-user-o light-blue fa-3x"></i>
+				</div>
+				<h4 class="light-blue mb-3"> Name </h4>
+				<h5>
+					Konstantinos Gkoumas
+				</h5>
+	      	</div>
 	      	<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
 				<div class="contact-icon mb-4">
-					<i class="fa fa-phone text-warning fa-3x"></i>
+					<i class="fa fa-phone light-blue fa-3x"></i>
 				</div>
-				<h4 class="text-warning mb-3"> Call Us </h4>
-				<div *ngFor="let phone of contact?.phone">
-					<h5 *ngIf="phone?.status == 1">
-						<a class="text-dark" href="tel:{{phone?.value}}">{{phone?.value}}</a>
-					</h5>
-				</div>
+				<h4 class="light-blue mb-3"> Call Us </h4>
+				<h5>
+					<a class="text-dark" href="tel:{{+306937480660}}">+306937480660</a><br>
+					<a class="text-dark" href="tel:{{+306944435373}}">+306944435373</a>
+				</h5>
 	      	</div>
 			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
 				<div class="contact-icon mb-4">
-				<i class="fa fa-envelope-o text-warning fa-3x"></i>
+				<i class="fa fa-envelope-o light-blue fa-3x"></i>
 				</div>
-				<h4 class="text-warning mb-3"> Send Us Mail </h4>
-				<div *ngFor="let email of contact?.email">
-					<h5 *ngIf="email?.status == 0">
-						<a class="text-dark" href="mailto:{{email?.value}}">{{email?.value}}</a>
-					</h5>
-				</div>
+				<h4 class="light-blue mb-3"> Send Us Mail </h4>
+				<h6>
+					<a class="text-dark" href="mailto:thesmallcycladesview@gmail.com">thesmallcycladesview@gmail.com</a>
+				</h6>
+				
 			</div>
-			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
-				<div class="contact-icon mb-4">
-				<i class="fa fa-comments text-warning fa-3x"></i>
-				</div>
-				<h5 class="text-warning mb-3"> Get Instant Help </h5>
-				<a href="javascript:void(0)" class="btn bg-green btn-sm"> Live Chat </a>
-			</div>
+
 	   </div>
 	</div>
 </div>
 <div class="contact-info">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-7">
-				<angly-map width="650" height="600"></angly-map>
-				<!-- <div class="google-maps mb-3">
-					<div class="mapouter">
-					   <div class="gmap_canvas">
-					      <iframe class="border-rad" width="650" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=Mohali%2C%20IN&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-					      </iframe> -->
-					      <!-- embed google map by <a href="http://www.embedgooglemap.net">embedgooglemap.net</a> -->
-					   <!-- </div>
-					   <style>.mapouter{overflow:hidden;height:600px;width:650px;}.gmap_canvas {background:none!important;height:600px;width:650px;}</style>
-					</div>
-				</div> -->
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<img width="870" height="600" [src]="map">   
+				<!-- <angly-map width="650" height="600"></angly-map> -->
 			</div>
-			<div class="col-sm-12 col-md-12 col-lg-5">
+			<!-- <div class="col-sm-12 col-md-12 col-lg-5">
 				<div angly-sendMessage></div>
-			 </div>
+			 </div> -->
 		 </div>
 	</div>
 </div>
 <div class="follow-us text-center section-gap">
 	<div class="container">
 		<div class="mb-5">
-			<h2> Follow Us</h2>
-		</div>
-		<div class="social-icon-widget">
-			<ul class="list-inline mb-0">
-				<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-facebook"><i class="fa fa-facebook fa-inverse"></i></a></li>
-				<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-twitter"><i class="fa fa-twitter fa-inverse"></i></a></li>
-				<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-google"><i class="fa fa-google-plus fa-inverse"></i></a></li>
-				<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-pinterest"><i class="fa fa-pinterest fa-inverse"></i></a></li>
-				<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-linked"><i class="fa fa-linkedin fa-inverse"></i></a></li>
-			</ul>
+			<h4>Located in the island of Iraklia</h4>
 		</div>
 	</div>
 </div>

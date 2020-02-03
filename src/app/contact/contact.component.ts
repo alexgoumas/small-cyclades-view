@@ -9,22 +9,11 @@ import { ChkService } from '../service/chk.service';
 })
 export class ContactComponent implements OnInit {
 
-  /* Variables */
-  contact : any;
-
-  constructor( private pageTitleService: PageTitleService, private service:ChkService ) {
+  map: string = 'assets/img/map.png';
+  constructor( private pageTitleService: PageTitleService) {
 
     /* Page title */
     this.pageTitleService.setTitle(" Lets Get In Touch ");
-
-    /* Page subTitle */
-    this.pageTitleService.setSubTitle(" Our latest news and learning articles. ");
-
-    this.service.getContactContent().
-      subscribe(response => {this.contact = response},
-                err      => console.log(err),
-                ()       => this.contact
-            );
   }
 
   ngOnInit() {
