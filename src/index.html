@@ -124,7 +124,11 @@
             var global = window;
         }
     </script>
-
+    <script>
+        var host = "thesmallcycladesview.com";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+        </script>
 </body>
 
 </html>
